@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navbar-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    list-style: none;
+  }
+  
+  /* Unified Button Styling */
+  .navbar-button {
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* Button matches the white navbar */
+    color: #555; /* Default text color */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover Effect */
+  .navbar-button:hover {
+    color: #28a745; /* Green font on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  /* Responsive Scaling */
+  .navbar-button:active {
+    transform: scale(1);
+  }
+  
