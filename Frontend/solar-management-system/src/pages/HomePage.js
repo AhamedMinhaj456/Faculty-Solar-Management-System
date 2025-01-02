@@ -12,7 +12,7 @@ const HomePage = () => {
       <section className="hero">
         <div className="hero-overlay">
           <div >
-            <div className="hero-content-h1">Solar Management System</div>
+            <div className="hero-content-h1">Solar Management System </div>
             <div className="hero-content-h2">
               Efficiently manage your solar energy systems with advanced analytics and real-time monitoring.
               <br /> Built for the Faculty of Technology, University of Rajarata.

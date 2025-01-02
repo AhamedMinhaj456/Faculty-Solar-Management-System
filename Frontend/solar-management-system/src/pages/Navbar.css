@@ -75,3 +75,15 @@ body {
     transform: scale(1);
   }
   
+
+  .navbar-link {
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit; /* Inherits the text color */
+    display: flex; /* Aligns logo and title horizontally */
+    align-items: center; /* Centers the content vertically */
+  }
+  
+  .navbar-icon {
+    margin-right: 8px; /* Space between logo and title */
+  }
+  
